@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="newform">
+        <h1>Contact Form</h1>
+        
+        <div class="label">
+            <label for="name">Name:</label><input type="text" id="name" placeholder="Enter your name" name="name">
+        </div>
+        
+        <div class="label">
+            <label for="username">Username:</label><input type="text" id="username" placeholder="Enter your username" name="username">
+        </div>
+        
+        <div class="label">
+            <label for="password">Password:</label><input type="password" id="password" placeholder="Enter password" name="password">
+        </div>
+        
+        <div class="label">
+            <label for="Re-type">Re-type Password</label><input type="password" id="Re-type" placeholder="Enter password" name="Re-type">
+        </div>
+        
+        <div class="label">
+            <label>Gender:</label>
+                <div class="gen">
+                    <input  type="radio" id="male" value="Male" name="gender"><label for="male">Male</label>
+                    <input  type="radio" id="female" value="Female" name="gender"><label for="female">Female</label>
+                </div>
+        </div>
+        
+        <div class="label">
+            <label>Techie Skills:</label>
+                <div class="skills">
+                    <input  type="checkbox" name="skill" name="HTML"><label>HTML</label> 
+                    <input  type="checkbox" name="skill" id="CSS"><label>CSS</label> 
+                    <input  type="checkbox" name="skill" id="JavaScript"><label>JavaScript</label>
+                </div>
+        </div>
+        
+        <div class="label">
+            <label for="phone">Phone Number:</label><input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+        </div>
+        
+        <div class="label">
+            <label for="email">Email:</label><input type="email" id="email" name="email" placeholder="Enter your Email">
+        </div>
+        
+        <div class="label">
+            <label for="college">College:</label><select name="college" id="">
+                <option value="">Option 1</option>
+                <option value="">Option 2</option>
+                <option value="">Option 3</option>
+            </select>
+        </div>
+        
+        <div class="button">
+            <input class="button" type="submit">
+        </div>
+    </form>
+</body>
+</html>

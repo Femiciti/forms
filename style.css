@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.newform{
+    width: 50%;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #F5F5F5;
+    
+}
+label{
+    display: flex;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+input{
+
+    font-family: 'Halant';
+    font-style: normal;
+    font-size: 28px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+h1{
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 150%;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.gen{
+    display: flex;
+    
+}
+.skills{
+    display: flex;
+    justify-content: left;
+    
+}
+.button 
+{
+    justify-content: right;
+    margin: 30px;
+    
+}
+.box{
+    margin-right: 0px;
+}
